@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>BusTicketManagementSystem.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusTicketManagementSystem.Domain\BusTicketManagementSystem.Domain.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Application\BusTicketManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Infrastructure\BusTicketManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Reporting\BusTicketManagementSystem.Reporting.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Shared\BusTicketManagementSystem.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.32" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="AspNetCore.Authentication.ApiKey" Version="6.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.88" />
+  </ItemGroup>
+
+</Project>

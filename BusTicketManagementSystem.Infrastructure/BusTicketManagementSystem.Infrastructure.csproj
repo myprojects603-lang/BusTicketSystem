@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BusTicketManagementSystem.Infrastructure</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusTicketManagementSystem.Domain\BusTicketManagementSystem.Domain.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Application\BusTicketManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Shared\BusTicketManagementSystem.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.22" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.22" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.88" />
+  </ItemGroup>
+</Project>

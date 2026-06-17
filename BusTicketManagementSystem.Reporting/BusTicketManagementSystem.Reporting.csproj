@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BusTicketManagementSystem.Reporting</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusTicketManagementSystem.Domain\BusTicketManagementSystem.Domain.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Application\BusTicketManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Shared\BusTicketManagementSystem.Shared.csproj" />
+    <ProjectReference Include="..\BusTicketManagementSystem.Infrastructure\BusTicketManagementSystem.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.7.4" />
+    <PackageReference Include="PdfSharpCore" Version="1.3.46" />
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketManagementSystem.Domain", "BusTicketManagementSystem.Domain\BusTicketManagementSystem.Domain.csproj", "{4A1A3E1B-A1B2-4E2E-B123-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketManagementSystem.Application", "BusTicketManagementSystem.Application\BusTicketManagementSystem.Application.csproj", "{4A1A3E1B-A1B2-4E2E-B123-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketManagementSystem.Infrastructure", "BusTicketManagementSystem.Infrastructure\BusTicketManagementSystem.Infrastructure.csproj", "{4A1A3E1B-A1B2-4E2E-B123-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketManagementSystem.API", "BusTicketManagementSystem.API\BusTicketManagementSystem.API.csproj", "{4A1A3E1B-A1B2-4E2E-B123-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketManagementSystem.Reporting", "BusTicketManagementSystem.Reporting\BusTicketManagementSystem.Reporting.csproj", "{4A1A3E1B-A1B2-4E2E-B123-555555555555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketManagementSystem.Shared", "BusTicketManagementSystem.Shared\BusTicketManagementSystem.Shared.csproj", "{4A1A3E1B-A1B2-4E2E-B123-666666666666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1A3E1B-A1B2-4E2E-B123-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A3E1B-A1B2-4E2E-B123-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
